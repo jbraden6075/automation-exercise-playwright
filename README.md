@@ -56,6 +56,16 @@ To run a specific test file:
 npx playwright test tests/example.spec.ts
 ```
 
+To run tests in UI mode:
+```sh
+npx playwright test --ui
+```
+
+To view latest test report:
+```sh
+npx playwright show-report
+```
+
 ## Helper Functions
 
 - **randomAlphabeticString(length):** Generates a random alphabetic string.
